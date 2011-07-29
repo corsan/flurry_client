@@ -1,0 +1,306 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		941CB27E13E32BD800DF2902 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941CB27D13E32BD800DF2902 /* UIKit.framework */; };
+		941CB28013E32BD800DF2902 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941CB27F13E32BD800DF2902 /* Foundation.framework */; };
+		941CB28213E32BD800DF2902 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941CB28113E32BD800DF2902 /* CoreGraphics.framework */; };
+		941CB28813E32BD800DF2902 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 941CB28613E32BD800DF2902 /* InfoPlist.strings */; };
+		941CB28A13E32BD800DF2902 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CB28913E32BD800DF2902 /* main.m */; };
+		941CB28E13E32BD800DF2902 /* FlurryClientAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CB28D13E32BD800DF2902 /* FlurryClientAppDelegate.m */; };
+		941CB29113E32BD800DF2902 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941CB28F13E32BD800DF2902 /* MainWindow.xib */; };
+		941CB29413E32BD800DF2902 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CB29313E32BD800DF2902 /* FirstViewController.m */; };
+		941CB29713E32BD800DF2902 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 941CB29613E32BD800DF2902 /* SecondViewController.m */; };
+		941CB29A13E32BD800DF2902 /* FirstView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941CB29813E32BD800DF2902 /* FirstView.xib */; };
+		941CB29D13E32BD800DF2902 /* SecondView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 941CB29B13E32BD800DF2902 /* SecondView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		941CB27913E32BD800DF2902 /* FlurryClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlurryClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		941CB27D13E32BD800DF2902 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		941CB27F13E32BD800DF2902 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		941CB28113E32BD800DF2902 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		941CB28513E32BD800DF2902 /* FlurryClient-Info.plist */ = {isa = PBXFileReference; path = "FlurryClient-Info.plist"; sourceTree = "<group>"; };
+		941CB28713E32BD800DF2902 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		941CB28913E32BD800DF2902 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		941CB28B13E32BD800DF2902 /* FlurryClient-Prefix.pch */ = {isa = PBXFileReference; path = "FlurryClient-Prefix.pch"; sourceTree = "<group>"; };
+		941CB28C13E32BD800DF2902 /* FlurryClientAppDelegate.h */ = {isa = PBXFileReference; path = FlurryClientAppDelegate.h; sourceTree = "<group>"; };
+		941CB28D13E32BD800DF2902 /* FlurryClientAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlurryClientAppDelegate.m; sourceTree = "<group>"; };
+		941CB29013E32BD800DF2902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		941CB29213E32BD800DF2902 /* FirstViewController.h */ = {isa = PBXFileReference; path = FirstViewController.h; sourceTree = "<group>"; };
+		941CB29313E32BD800DF2902 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		941CB29513E32BD800DF2902 /* SecondViewController.h */ = {isa = PBXFileReference; path = SecondViewController.h; sourceTree = "<group>"; };
+		941CB29613E32BD800DF2902 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		941CB29913E32BD800DF2902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstView.xib; sourceTree = "<group>"; };
+		941CB29C13E32BD800DF2902 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		941CB27613E32BD800DF2902 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941CB27E13E32BD800DF2902 /* UIKit.framework in Frameworks */,
+				941CB28013E32BD800DF2902 /* Foundation.framework in Frameworks */,
+				941CB28213E32BD800DF2902 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		941CB26E13E32BD800DF2902 = {
+			isa = PBXGroup;
+			children = (
+				941CB28313E32BD800DF2902 /* FlurryClient */,
+				941CB27C13E32BD800DF2902 /* Frameworks */,
+				941CB27A13E32BD800DF2902 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		941CB27A13E32BD800DF2902 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				941CB27913E32BD800DF2902 /* FlurryClient.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		941CB27C13E32BD800DF2902 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				941CB27D13E32BD800DF2902 /* UIKit.framework */,
+				941CB27F13E32BD800DF2902 /* Foundation.framework */,
+				941CB28113E32BD800DF2902 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		941CB28313E32BD800DF2902 /* FlurryClient */ = {
+			isa = PBXGroup;
+			children = (
+				941CB28C13E32BD800DF2902 /* FlurryClientAppDelegate.h */,
+				941CB28D13E32BD800DF2902 /* FlurryClientAppDelegate.m */,
+				941CB28F13E32BD800DF2902 /* MainWindow.xib */,
+				941CB29213E32BD800DF2902 /* FirstViewController.h */,
+				941CB29313E32BD800DF2902 /* FirstViewController.m */,
+				941CB29513E32BD800DF2902 /* SecondViewController.h */,
+				941CB29613E32BD800DF2902 /* SecondViewController.m */,
+				941CB29813E32BD800DF2902 /* FirstView.xib */,
+				941CB29B13E32BD800DF2902 /* SecondView.xib */,
+				941CB28413E32BD800DF2902 /* Supporting Files */,
+			);
+			path = FlurryClient;
+			sourceTree = "<group>";
+		};
+		941CB28413E32BD800DF2902 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				941CB28513E32BD800DF2902 /* FlurryClient-Info.plist */,
+				941CB28613E32BD800DF2902 /* InfoPlist.strings */,
+				941CB28913E32BD800DF2902 /* main.m */,
+				941CB28B13E32BD800DF2902 /* FlurryClient-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		941CB27813E32BD800DF2902 /* FlurryClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 941CB2A013E32BD800DF2902 /* Build configuration list for PBXNativeTarget "FlurryClient" */;
+			buildPhases = (
+				941CB27513E32BD800DF2902 /* Sources */,
+				941CB27613E32BD800DF2902 /* Frameworks */,
+				941CB27713E32BD800DF2902 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlurryClient;
+			productName = FlurryClient;
+			productReference = 941CB27913E32BD800DF2902 /* FlurryClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		941CB27013E32BD800DF2902 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 941CB27313E32BD800DF2902 /* Build configuration list for PBXProject "FlurryClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 941CB26E13E32BD800DF2902;
+			productRefGroup = 941CB27A13E32BD800DF2902 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				941CB27813E32BD800DF2902 /* FlurryClient */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		941CB27713E32BD800DF2902 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941CB28813E32BD800DF2902 /* InfoPlist.strings in Resources */,
+				941CB29113E32BD800DF2902 /* MainWindow.xib in Resources */,
+				941CB29A13E32BD800DF2902 /* FirstView.xib in Resources */,
+				941CB29D13E32BD800DF2902 /* SecondView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		941CB27513E32BD800DF2902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941CB28A13E32BD800DF2902 /* main.m in Sources */,
+				941CB28E13E32BD800DF2902 /* FlurryClientAppDelegate.m in Sources */,
+				941CB29413E32BD800DF2902 /* FirstViewController.m in Sources */,
+				941CB29713E32BD800DF2902 /* SecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		941CB28613E32BD800DF2902 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941CB28713E32BD800DF2902 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		941CB28F13E32BD800DF2902 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941CB29013E32BD800DF2902 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		941CB29813E32BD800DF2902 /* FirstView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941CB29913E32BD800DF2902 /* en */,
+			);
+			name = FirstView.xib;
+			sourceTree = "<group>";
+		};
+		941CB29B13E32BD800DF2902 /* SecondView.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				941CB29C13E32BD800DF2902 /* en */,
+			);
+			name = SecondView.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		941CB29E13E32BD800DF2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		941CB29F13E32BD800DF2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		941CB2A113E32BD800DF2902 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryClient/FlurryClient-Prefix.pch";
+				INFOPLIST_FILE = "FlurryClient/FlurryClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		941CB2A213E32BD800DF2902 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FlurryClient/FlurryClient-Prefix.pch";
+				INFOPLIST_FILE = "FlurryClient/FlurryClient-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		941CB27313E32BD800DF2902 /* Build configuration list for PBXProject "FlurryClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941CB29E13E32BD800DF2902 /* Debug */,
+				941CB29F13E32BD800DF2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		941CB2A013E32BD800DF2902 /* Build configuration list for PBXNativeTarget "FlurryClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				941CB2A113E32BD800DF2902 /* Debug */,
+				941CB2A213E32BD800DF2902 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 941CB27013E32BD800DF2902 /* Project object */;
+}
